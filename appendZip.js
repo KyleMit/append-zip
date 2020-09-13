@@ -4,9 +4,7 @@ const fsp = fs.promises
 const archiver = require('archiver');
 const extract = require('extract-zip')
 
-module.exports = {
-    appendZip
-}
+module.exports = appendZip
 
 async function appendZip(source, callback) {
     try {
